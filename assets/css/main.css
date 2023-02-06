@@ -4001,11 +4001,7 @@ input, select, textarea {
 				line-height: inherit;
 			}
 
-			#header h1:before {
-				background: #ffffff;
-				border-radius: 100%;
-				color: #5f9dd2;
-				content: '\f1b3';
+			#header:before {
 				display: inline-block;
 				font-size: 0.9em;
 				height: 2em;
@@ -4014,6 +4010,13 @@ input, select, textarea {
 				margin-right: 0.5em;
 				text-align: center;
 				width: 2em;
+			}
+
+			#header .header-logo {
+				display: inline-block;
+				margin-left: 25px;
+				margin-top: 1px;
+				max-height: 55px;
 			}
 
 		#header nav {
@@ -4238,6 +4241,11 @@ input, select, textarea {
 		min-height: 70vh;
 		height: 35em;
 	}
+
+		#banner .banner-logo {
+			max-width: 175px;
+			
+		}
 
 		#banner .content {
 			position: absolute;
