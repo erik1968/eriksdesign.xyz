@@ -4411,7 +4411,7 @@ input, select, textarea {
 			height: 30em;
 		}
 		#banner .banner-logo {
-			max-width: 150px;
+			max-width: 175px;
 		}
 
 	}
@@ -4422,7 +4422,7 @@ input, select, textarea {
 			height: 50em;
 		}
 		#banner .banner-logo {
-			max-width: 150px;
+			max-width: 175px;
 		}
 
 	}
@@ -4479,7 +4479,7 @@ input, select, textarea {
 				padding: 2.5em 2em 0.5em 2em ;
 			}
 			#banner .banner-logo {
-				max-width: 80px;
+				max-width: 100px;
 			
 
 		}
@@ -4489,7 +4489,8 @@ input, select, textarea {
 			#banner .content {
 				padding: 2.5em 1.5em 0.5em 1.5em ;
 			}		
-
+			#banner .banner-logo {
+				max-width: 100px;
 		}
 
 /* Footer */
