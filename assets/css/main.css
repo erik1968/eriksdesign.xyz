@@ -4001,7 +4001,8 @@ input, select, textarea {
 				line-height: inherit;
 			}
 
-			#header h1:before {
+/* Original #header logo icon + h1 		
+				#header h1:before {
 				background: #ffffff;
 				border-radius: 100%;
 				color: #5f9dd2;
@@ -4014,6 +4015,26 @@ input, select, textarea {
 				margin-right: 0.5em;
 				text-align: center;
 				width: 2em;
+			} */
+
+/* Custom #header w/logo ! NOT COMPLETE-GET HELP! */
+		#header:before {
+				display: inline-block;
+				font-size: 0.9em;
+				height: 2em;
+				line-height: 2em;
+				margin-left: -0.5em;
+				margin-right: 0.5em;
+				text-align: center;
+				width: 2em;
+}
+
+/* Custom #header logo - full screen size */
+			#header .header-logo {
+				display: inline-block;
+				margin-left: 25px;
+				margin-top: 1px;
+				max-height: 3.5em;
 			}
 
 		#header nav {
@@ -4209,6 +4230,13 @@ input, select, textarea {
 			line-height: 2.95em !important;
 		}
 
+		#header .header-logo {
+			display: inline-block;
+			margin-left: 25px;
+			margin-top: 1px;
+			max-height: 2.6em;
+		}
+
 			#header h1 {
 				margin-left: 1.25em !important;
 			}
@@ -4237,6 +4265,11 @@ input, select, textarea {
 		position: relative;
 		min-height: 70vh;
 		height: 35em;
+	}
+
+	#banner .banner-logo {
+		max-width: 200px;
+		margin: 20px;
 	}
 
 		#banner .content {
@@ -4387,6 +4420,9 @@ input, select, textarea {
 		#banner {
 			height: 30em;
 		}
+		#banner .banner-logo {
+			max-width: 175px;
+		}
 
 	}
 
@@ -4394,6 +4430,9 @@ input, select, textarea {
 
 		#banner {
 			height: 50em;
+		}
+		#banner .banner-logo {
+			max-width: 175px;
 		}
 
 	}
@@ -4406,7 +4445,9 @@ input, select, textarea {
 				-ms-flex-direction: column;
 				flex-direction: column;
 			}
-
+			#banner .banner-logo {
+				max-width: 150px;
+			}
 				#banner .content > .inner header {
 					width: 100%;
 				}
@@ -4424,13 +4465,18 @@ input, select, textarea {
 		#banner {
 			height: 25em;
 		}
-
+		#banner .banner-logo {
+			max-width: 125px;
+		}
 	}
 
 	@media screen and (max-width: 736px) and (orientation: portrait) {
 
 		#banner {
 			height: 30em;
+		}
+		#banner .banner-logo {
+			max-width: 125px;
 		}
 
 	}
@@ -4440,7 +4486,9 @@ input, select, textarea {
 			#banner .content {
 				padding: 2.5em 2em 0.5em 2em ;
 			}
-
+			#banner .banner-logo {
+				max-width: 100px;
+			}
 		}
 
 		@media screen and (max-width: 480px) {
@@ -4448,7 +4496,9 @@ input, select, textarea {
 			#banner .content {
 				padding: 2.5em 1.5em 0.5em 1.5em ;
 			}
-
+			#banner .banner-logo {
+				max-width: 100px;
+		}
 		}
 
 /* Footer */
