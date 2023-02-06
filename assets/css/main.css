@@ -4221,7 +4221,7 @@ input, select, textarea {
 			display: inline-block;
 			margin-left: 25px;
 			margin-top: 1px;
-			max-height: 2.5em;
+			max-height: 2.6em;
 		}
 			#header h1 {
 				margin-left: 1.25em !important;
@@ -4400,7 +4400,7 @@ input, select, textarea {
 					}
 
 					#banner .banner-logo {
-						max-width: 125px;
+						max-width: 200px;
 					}
 
 		}
@@ -4411,7 +4411,7 @@ input, select, textarea {
 			height: 30em;
 		}
 		#banner .banner-logo {
-			max-width: 80px;
+			max-width: 100px;
 		}
 
 	}
@@ -4422,7 +4422,7 @@ input, select, textarea {
 			height: 50em;
 		}
 		#banner .banner-logo {
-			max-width: 80px;
+			max-width: 100px;
 		}
 
 	}
@@ -4436,7 +4436,7 @@ input, select, textarea {
 				flex-direction: column;
 			}
 			#banner .banner-logo {
-				max-width: 80px;
+				max-width: 100px;
 			}
 
 				#banner .content > .inner header {
@@ -4464,6 +4464,9 @@ input, select, textarea {
 		#banner {
 			height: 30em;
 		}
+		#banner .banner-logo {
+			max-width: 80px;
+		}
 
 	}
 
@@ -4472,6 +4475,9 @@ input, select, textarea {
 			#banner .content {
 				padding: 2.5em 2em 0.5em 2em ;
 			}
+			#banner .banner-logo {
+				max-width: 80px;
+			
 
 		}
 
@@ -4480,6 +4486,9 @@ input, select, textarea {
 			#banner .content {
 				padding: 2.5em 1.5em 0.5em 1.5em ;
 			}
+			#banner .banner-logo {
+				max-width: 60px;
+			
 
 		}
 
