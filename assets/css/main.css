@@ -4016,7 +4016,7 @@ input, select, textarea {
 				display: inline-block;
 				margin-left: 25px;
 				margin-top: 1px;
-				max-height: 55px;
+				max-height: 3.5em;
 			}
 
 		#header nav {
@@ -4197,6 +4197,12 @@ input, select, textarea {
 			#header h1:before {
 				font-size: 0.8em;
 			}
+			#header .header-logo {
+				display: inline-block;
+				margin-left: 25px;
+				margin-top: 1px;
+				max-height: 2.75em;
+			}
 
 		.dropotron {
 			min-width: 11em;
@@ -4243,8 +4249,8 @@ input, select, textarea {
 	}
 
 		#banner .banner-logo {
-			max-width: 175px;
-			
+			max-width: 200px;
+			margin: 20px;
 		}
 
 		#banner .content {
@@ -4388,12 +4394,19 @@ input, select, textarea {
 						width: 100%;
 					}
 
+					#banner .banner-logo {
+						max-width: 125px;
+					}
+
 		}
 
 	@media screen and (max-width: 980px) and (orientation: landscape) {
 
 		#banner {
 			height: 30em;
+		}
+		#banner .banner-logo {
+			max-width: 80px;
 		}
 
 	}
@@ -4402,6 +4415,9 @@ input, select, textarea {
 
 		#banner {
 			height: 50em;
+		}
+		#banner .banner-logo {
+			max-width: 80px;
 		}
 
 	}
@@ -4413,6 +4429,9 @@ input, select, textarea {
 				-webkit-flex-direction: column;
 				-ms-flex-direction: column;
 				flex-direction: column;
+			}
+			#banner .banner-logo {
+				max-width: 80px;
 			}
 
 				#banner .content > .inner header {
