@@ -4001,7 +4001,11 @@ input, select, textarea {
 				line-height: inherit;
 			}
 
-			#header:before {
+			#header h1:before {
+				background: #ffffff;
+				border-radius: 100%;
+				color: #5f9dd2;
+				content: '\f1b3';
 				display: inline-block;
 				font-size: 0.9em;
 				height: 2em;
@@ -4010,13 +4014,6 @@ input, select, textarea {
 				margin-right: 0.5em;
 				text-align: center;
 				width: 2em;
-			}
-
-			#header .header-logo {
-				display: inline-block;
-				margin-left: 25px;
-				margin-top: 1px;
-				max-height: 3.5em;
 			}
 
 		#header nav {
@@ -4197,12 +4194,6 @@ input, select, textarea {
 			#header h1:before {
 				font-size: 0.8em;
 			}
-			#header .header-logo {
-				display: inline-block;
-				margin-left: 25px;
-				margin-top: 1px;
-				max-height: 2.75em;
-			}
 
 		.dropotron {
 			min-width: 11em;
@@ -4217,12 +4208,7 @@ input, select, textarea {
 			height: 3em !important;
 			line-height: 2.95em !important;
 		}
-		#header .header-logo {
-			display: inline-block;
-			margin-left: 25px;
-			margin-top: 1px;
-			max-height: 2.6em;
-		}
+
 			#header h1 {
 				margin-left: 1.25em !important;
 			}
@@ -4252,11 +4238,6 @@ input, select, textarea {
 		min-height: 70vh;
 		height: 35em;
 	}
-
-		#banner .banner-logo {
-			max-width: 200px;
-			margin: 20px;
-		}
 
 		#banner .content {
 			position: absolute;
@@ -4399,19 +4380,12 @@ input, select, textarea {
 						width: 100%;
 					}
 
-					#banner .banner-logo {
-						max-width: 200px;
-					}
-
 		}
 
 	@media screen and (max-width: 980px) and (orientation: landscape) {
 
 		#banner {
 			height: 30em;
-		}
-		#banner .banner-logo {
-			max-width: 175px;
 		}
 
 	}
@@ -4420,9 +4394,6 @@ input, select, textarea {
 
 		#banner {
 			height: 50em;
-		}
-		#banner .banner-logo {
-			max-width: 175px;
 		}
 
 	}
@@ -4434,9 +4405,6 @@ input, select, textarea {
 				-webkit-flex-direction: column;
 				-ms-flex-direction: column;
 				flex-direction: column;
-			}
-			#banner .banner-logo {
-				max-width: 150px;
 			}
 
 				#banner .content > .inner header {
@@ -4456,9 +4424,6 @@ input, select, textarea {
 		#banner {
 			height: 25em;
 		}
-		#banner .banner-logo {
-			max-width: 125px;
-		}
 
 	}
 
@@ -4466,9 +4431,6 @@ input, select, textarea {
 
 		#banner {
 			height: 30em;
-		}
-		#banner .banner-logo {
-			max-width: 125px;
 		}
 
 	}
@@ -4478,9 +4440,6 @@ input, select, textarea {
 			#banner .content {
 				padding: 2.5em 2em 0.5em 2em ;
 			}
-			#banner .banner-logo {
-				max-width: 100px;
-			
 
 		}
 
@@ -4488,9 +4447,8 @@ input, select, textarea {
 
 			#banner .content {
 				padding: 2.5em 1.5em 0.5em 1.5em ;
-			}		
-			#banner .banner-logo {
-				max-width: 100px;
+			}
+
 		}
 
 /* Footer */
