@@ -4217,7 +4217,12 @@ input, select, textarea {
 			height: 3em !important;
 			line-height: 2.95em !important;
 		}
-
+		#header .header-logo {
+			display: inline-block;
+			margin-left: 25px;
+			margin-top: 1px;
+			max-height: 2.5em;
+		}
 			#header h1 {
 				margin-left: 1.25em !important;
 			}
