@@ -2276,7 +2276,7 @@ input, select, textarea {
 				margin-left: auto;
 				margin-right: auto;
 				margin-bottom: 10px;
-				max-width: 75% !important;	
+				max-width: 65% !important;	
 			
 			}
 		
@@ -2288,7 +2288,7 @@ input, select, textarea {
 				margin-left: auto;
 				margin-right: auto;
 				margin-bottom: 10px;
-				max-width: 75% !important;
+				max-width: 90% !important;
 				
 			}
 
@@ -2303,14 +2303,22 @@ input, select, textarea {
 		
 		@media screen and (max-width: 736px) and (orientation: landscape) {
 			#portfolio-img {
-				
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 10px;
+				max-width: 65% !important;	
 			}
 		
 		}
 		
 		@media screen and (max-width: 736px) and (orientation: portrait) {
 			#portfolio-img {
-				
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 10px;
+				max-width: 85% !important;	
 			}
 		
 		}
@@ -2324,7 +2332,11 @@ input, select, textarea {
 		
 		@media screen and (max-width: 480px) {
 			#portfolio-img {
-				
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 5px;
+				max-width: 100% !important;	
 			}
 		
 		}
