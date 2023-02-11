@@ -2264,7 +2264,7 @@ input, select, textarea {
 				display: block;
 				margin-left: auto;
 				margin-right: auto;
-				padding: 25px;
+				padding: 50px;
 				margin-bottom: 10px;
 				max-width: 100% !important;
 			}
@@ -2276,9 +2276,9 @@ input, select, textarea {
 				display: block;
 				margin-left: auto;
 				margin-right: auto;
-				margin-bottom: 10px;
-				padding: 0px !important;
-				max-width: 65% !important;	
+				margin-bottom: 20px;
+				padding: 30px !important;
+				max-width: 100% !important;	
 			}
 		}
 		
@@ -2287,7 +2287,7 @@ input, select, textarea {
 				display: block;
 				margin-left: auto;
 				margin-right: auto;
-				margin-bottom: 10px;
+				margin-bottom: 20px;
 				padding: 0px !important;
 				max-width: 100% !important;
 			}
@@ -2298,7 +2298,7 @@ input, select, textarea {
 				display: block;
 				margin-left: auto;
 				margin-right: auto;
-				margin-bottom: 10px;
+				margin-bottom: 20px;
 				padding: 0px !important;
 				max-width: 100% !important;
 			}
@@ -2310,8 +2310,8 @@ input, select, textarea {
 				margin-left: auto;
 				margin-right: auto;
 				margin-bottom: 20px;
-				padding: 0px !important;
-				max-width: 65% !important;	
+				padding: 50px !important;
+				max-width: 100% !important;	
 			}
 		}
 		
@@ -2331,7 +2331,7 @@ input, select, textarea {
 				display: block;
 				margin-left: auto;
 				margin-right: auto;
-				margin-bottom: 10px;
+				margin-bottom: 20px;
 				padding: 0px !important;
 				max-width: 100% !important;	
 			}
@@ -2342,7 +2342,7 @@ input, select, textarea {
 				display: block;
 				margin-left: auto;
 				margin-right: auto;
-				margin-bottom: 10px;
+				margin-bottom: 20px;
 				padding: 0px !important;
 				max-width: 100% !important;	
 			}
