@@ -2277,8 +2277,8 @@ input, select, textarea {
 				margin-left: auto;
 				margin-right: auto;
 				margin-bottom: 20px;
-				padding: 30px !important;
-				max-width: 80% !important;	
+				padding: 0px !important;
+				max-width: 75% !important;	
 			}
 		}
 		
@@ -2300,7 +2300,7 @@ input, select, textarea {
 				margin-right: auto;
 				margin-bottom: 20px;
 				padding: 0px !important;
-				max-width: 80% !important;
+				max-width: 100% !important;
 			}
 		}
 		
